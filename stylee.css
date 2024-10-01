@@ -1,0 +1,69 @@
+.BOX{
+    padding:5px;
+    margin-top:18px;
+    }
+    .BO{
+        background-color:#008080;
+        margin-bottom: -18px;
+        padding: 10px;
+        text-align: center;
+        color:black;
+    }
+.btn{
+margin-left: 90%;
+padding:10px  20px;
+border-radius: 10px;
+color:black;
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+margin-top: -10px;
+
+}
+th{
+background-color: rgb(78, 74, 74);
+color:white;
+
+}
+
+
+
+
+
+
+#modal{
+    background:rgba(0,0,0,0.7);
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index: 100;
+    display:none;
+
+}
+#modal-form{
+    background: #fff;
+    width:25%;
+    position:relative;
+    top:20%;
+    left:calc(50%-15%);
+    padding:15px;
+    border-radius: 4px;
+    margin-left:20%;
+
+}
+#close-btn{
+    background:red;
+    color:black;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    border-radius: 50%;
+    position: absolute;
+    top:-3%;
+    right:-1%;
+    text-align: center;
+    cursor: pointer;
+}
+.search{
+    padding-left: 30px;
+}
